@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import com.gabrielborba.workshopmongo.domain.User;
 import com.gabrielborba.workshopmongo.repository.UserRepository;
 
-@Configuration //Anotation de Config
+@Configuration //Anotation de Config (Dar um reset na base de dados)
 public class Instantiation implements CommandLineRunner{
 
 	@Autowired
